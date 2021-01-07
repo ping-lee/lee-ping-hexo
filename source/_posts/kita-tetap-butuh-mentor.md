@@ -4,29 +4,30 @@ date: 2020-12-03 16:11:59
 tags: [观点, 网页]
 thumbnail: forest.jpg
 ---
+
 ![](forest.jpg)
 
-<span>Photo by <a href="https://unsplash.com/@olipaulgibbs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Oli Gibbs</a> on <a href="https://unsplash.com/s/photos/forest-from-top?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>照片由 <a href="https://unsplash.com/@olipaulgibbs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Oli Gibbs</a> 于 <a href="https://unsplash.com/s/photos/forest-from-top?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> 提供
 
-Bismillah.
+比斯米拉
 
-Sudah sebulan saya tidak menulis, rasanya kangen juga menulis hal acak dan ringan untuk menikmati waktu luang.
+我已经一个月没写东西了，我想我很怀念写些随意而轻松的东西来享受时光。
 
-Saya ingin cerita tentang salah satu opini saya tentang belajar. Sebagai disclaimer, opini ini saya tulis tanpa dasar literasi sama sekali. Saya sedang malas menulis hal yang berat hehe.
+我想告诉你我对学习的一个看法。作为免责声明，我写的这个观点完全没有文学基础。我几乎没写那么重的东西，呵呵。
 
-Pemikiran ini sebenarnya saya dapat dari pengamatan pribadi (sebagian besar tulisan saya memang kebanyakan [self-referencing](https://en.wikipedia.org/wiki/Self-reference#In_language)). Selain itu, opini ini juga sebatas apa yang saya lalui ketika belajar di bidang IT, tapi barangkali bisa menjadi lebih umum.
+这种想法其实是我从个人观察中得到的（我的大部分写作都是[自我参照](https://en.wikipedia.org/wiki/Self-reference#In_language)），此外，这种观点也仅限于我研究它时所经历的，但可能更为普遍。
 
 {% blockquote %}
-Sehebat apapun, kita tetap butuh mentor
+不管怎样，我们仍然需要导师。
 {% endblockquote %}
 
-Dulu saya berpikir bahwa belajar secara mandiri itu berarti belajar hal baru di luar kelas, yang artinya dengan melakukan pengamatan dan eksperimen yang [secara empiris](https://pendidikan.co.id/pengertian-empiris/#:~:text=Empiris%20merupakan%20suatu%20keadaan%20yang,juga%20eksperimen%20yang%20pernah%20dilakukan.) dilakukan oleh diri sendiri.
+我曾经认为，独立学习意味着在课堂之外学习新事物，也就是说做自己[经验性](https://pendidikan.co.id/pengertian-empiris/#:~:text=Empiris%20merupakan%20suatu%20keadaan%20yang,juga%20eksperimen%20yang%20pernah%20dilakukan.)的观察和实验。
 
-Hal itu yang hampir selalu saya lakukan ketika belajar banyak hal di bidang IT. Lalu di masa 'akselerasi' ini, saya belajar hal kecil yang saya luput: Sekeras apapun belajar sendiri, tetap akan kalah efektif dibandingkan dengan belajar dengan bantuan mentor.
+当我学到很多的时候，我总是这样做。然后在这段加速的时间里，我学到了一点我错过的东西：只要我自己学会了，它仍然不如和导师一起学习有效。
 
-Salah satu contoh yang saya alami yaitu ketika saya belajar konsep [Object and Array Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) di JavaScript (These codes below are just examples, bear with me hehe).
+我经历过的一个例子是，当我在JavaScript中学习[对象和数组解构](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)的概念时（下面的代码只是示例，请记住，呵呵）。
 
-Ada sebuah tantangan yang harus saya lakukan dari online course yang saya ikuti di Udemy, yaitu menerapkan konsep destructuring ini untuk menampilkan data dari `practice.js` kedalam sebuah code JSX yang tidak boleh diubah.
+我在Udemy参加的在线课程中遇到了一个挑战，那就是应用破坏的概念来显示来自`practice.js`变成一个不可更改的JSX代码。
 
 ```js
 //practice.js
@@ -53,7 +54,7 @@ export default cars;
 
 ```
 
-Data itu harus saya masukan ke code JSX di bawah ini tanpa mengubahnya, maka saya harus melakukan destructuring terlebih dahulu.
+我必须将这些数据输入到下面的JSX代码中，而不进行任何更改，因此我必须首先进行销毁。
 
 ```js
 //...
@@ -78,9 +79,9 @@ ReactDOM.render(
 );
 ```
 
-Karena saya sudah belajar konsep ini dan tentu dengan berbekal googling sana-sini akhirnya saya bisa menyelesaikannya. Lalu setelah itu saya melanjutkan ke sesi berikutnya yang merupakan sesi solution yang berisi pemecahan masalah dan pembahasan dari mentor untuk tantangan tersebut.
+因为我已经学会了这个概念，当然，通过在这里搜索，我终于可以完成它。然后我继续进行下一个环节，这是一个解决问题的环节，包括解决问题和指导挑战。
 
-Berikut ini adalah hasil cara saya dan mentor saya dalam melakukan destructuring:
+以下是我的方式和我的导师在毁灭中的结果：
 
 ```js
 // My solution sucks, but it still works tho haha.
@@ -106,14 +107,14 @@ const {speedStats: {topSpeed: teslaTopSpeed}} = tesla;
 const {coloursByPopularity: [hondaTopColour]} = honda;
 const {coloursByPopularity: [teslaTopColour]} = tesla;
 ```
-Solusi yang saya buat memang bekerja sesuai yang dibutuhkan, tetapi ini masih redudan dan sulit dibaca (karena harus memasukkan `coloursByPopularity` dan `speedStats` di satu konstanta). Sedangkan solusi dari mentor saya jelas lebih readable dan lebih modular.
+我正在研究的解决方案实际上是在研究它所需要的东西，但是它仍然很小而且很难阅读（因为它必须将`colorsByPopularity`和`speedStats`放在一个常量中）。而我导师的解决方案显然更具可读性和模块化。
 
-Jika saya belajar tanpa mentor pasti saya akan terus menggunakan cara 'bad practice' asal programnya berjalan (seperti ketika saya menggunakan Mongoose di banyak project).
+如果我在没有导师的情况下学习，我肯定会继续使用程序开始运行时的糟糕做法（就像我在许多项目中使用`Mongoose`一样）。
 
-Dari hal kecil itulah saya percaya bahwa sehebat apapun cara kita belajar hal baru, masih akan kalah efektif dengan orang yang belajar hal baru dengan bantuan mentor, meski hanya satu arah (melihat tutorial, online course dsb).
+从这件小事上我相信，我们学习新事物的方式，对于那些在导师帮助下学习新事物的人来说仍然是有效的，即使只有一个方向（见教程、在线课程等）。
 
-Selain itu hal yang tidak saya dapat dari belajar tanpa mentor adalah kekurangan di sisi kurikulum/roadmap yang terarah. Umumnya si mentor sudah lebih tau roadmap yang tepat dalam belajar hal tertentu terutama bagi para noobian
+此外，没有导师我学不到的是课程/路线图方面的不足。一般来说，导师更了解学习某些东西的正确路线图，特别是对那些无名小卒来说。
 
-Lalu terakhir, berita baiknya adalah di masa sekarang ini sudah terbuka semua kesempatan untuk belajar hampir semua hal. Bahkan sudah banyak organisasi yang memberikan fasilitas belajar dan mentoring secara gratis. Nah, tinggal kitanya bagaimana nih menanggapi kesempatan seperti sekarang ini (nasihat ke diri sendiri haha).
+最后，好消息是，在这一点上，它已经打开了每一个机会，学习几乎一切。甚至有许多组织免费提供学习和指导设施。好吧，这取决于我们如何应对这样的机会。
 
-Salam dan see ya next time 😁
+哈哈哈，下次再见 😁

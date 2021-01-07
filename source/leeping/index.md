@@ -1,6 +1,6 @@
 ---
 title: lee-ping
-date: 2020-09-27 12:05:36
+date: 2021-01-07 12:05:36
 description: Tentang Adi Sakti Jrs
 ---
 <div class="text-center mb-3">
@@ -26,9 +26,9 @@ description: Tentang Adi Sakti Jrs
 
 当我进入大学工作时，我搬到了[WordPress](https://wordpress.com网站/)作为一个博客网站，那是我第一次学习编程语言的时候。我学的第一门语言是[Pascal]()（编程语言）。
 
-然后，现在我决定用一个静态站点来取代我的[博客平台](https://adisaktijrs.wordpress.com/)以前。我使用Hexo作为一个博客平台，它可以同时自动生成静态站点，并且可以放置在托管[GitHub Pages](https://pages.github.com/)上.我使用的主题是我自己开发的最小值（最小设计的表示）。
+然后，现在我决定用一个静态站点来取代我的[博客平台](https://adisaktijrs.wordpress.com/)以前。我使用Hexo作为一个博客平台，它可以同时自动生成静态站点，并且可以放置在托管[GitHub Pages](https://pages.github.com/)上.我使用的主题是我自己开发的Minima（最小设计的表示）。
 
-好吧，希望我通过这个博客写的东西能带来一点好处。最后，让我们通过社交媒体保持联系。问候语。 😁
+好吧，希望我通过这个博客写的东西能带来一点好处。最后，让我们通过社交媒体保持联系。 😁
 
 #### 更新
-2020年10月26日：我把这个博客主题换成了Sindoro主题（我在高中第一次钉的山的名字，呵呵）。我根据[Minima](https://hexo.io/themes/#Minima)开发的这个主题从回购开始，我还没开始发展。我的计划是让开源像Minima一样。
+平时经常偷懒，哈哈哈。
