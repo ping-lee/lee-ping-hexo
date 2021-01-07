@@ -1,0 +1,24 @@
+<div class="row ">
+  <div class="column">
+    <!-- Main information, edit it on theme/_config.yml -->
+    <h4 class="mb-2"><%= theme.owner %></h4>
+    <p><%= theme.info %></p>
+    <p><%= theme.desc %></p>
+  </div>
+</div>
+
+<h5>最近帖子</h5>
+
+<% site.posts.sort('date', 'desc').limit(theme.max_post).forEach(function(post){ %>
+<div class="row">
+
+  <div class="three columns left lit">
+    <p class="bottom"><%- moment(post.date).locale('zh-cn').format('ll') %></p>
+  </div>
+  <div class="nine columns left mb-3">
+    <a href="<%- url_for(post.path) %>" class=""><%- post.title %></a>
+  </div>
+</div>
+<% }) %>
+
+<p> <a href="/archives">查看其他</a></p>

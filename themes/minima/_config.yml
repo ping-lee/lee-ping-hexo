@@ -1,0 +1,36 @@
+#title in header
+title: "嗨，您好。"
+
+#main info
+#owner
+owner: "lee-ping"
+info: "帝高阳之苗裔兮，朕皇考曰伯庸。摄提贞于孟陬兮，惟庚寅吾以降。皇览揆余于初度兮，肇锡余以嘉名：名余曰正则兮，字余曰灵均。"
+#description
+desc: "你好呀，欢迎来到我的博客😁"
+
+#menu
+menu:
+  项目: /projects
+  关于: /leeping
+
+#index/main page max show posts (in number)
+max_post: 3
+
+# social profile at the footer/bottom
+place: https://www.google.com/search?q=昆明
+github: https://github.com/ping-lee
+instagram: https://www.instagram.com/ping-lee/
+twitter: https://twitter.com/ping-lee
+
+# js
+nanobar: /js/nanobar.min.js
+
+# favicon
+favicon: /images/favicon.ico
+
+article:
+  thumbnail: true
+
+# DISQUS comments (sign up to Disqus to get disqus_shortname)
+disqus_enabled: true
+disqus_shortname: tristanme-com
