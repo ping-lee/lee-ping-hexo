@@ -1,5 +1,5 @@
 ---
-title: 环滇之旅
+title: 环滇骑行
 date: 2021-01-07 11:11:59
 tags: [户外, 运动]
 ---
@@ -49,7 +49,29 @@ tags: [户外, 运动]
 环滇：8小时
 总共：11小时
 
-由此确定出发时间：7：30
+
+由此确定出发时间：7：30 
+
+
 ##### 风光
+<div class="item" data-src="f1.王宫湿地公园.jpg" style="background-image: none;margin: 0 auto;width: 90%;"><img src="f1.王宫湿地公园.jpg" /></div>
+
+<div class="item" data-src="f2.1海晏村.jpg" style="background-image: none;margin: 0 auto;width: 90%;"><img src="f2.1海晏村.jpg" /></div>
+
+<div class="item" data-src="f2.2海晏村.jpg" style="background-image: none;margin: 0 auto;width: 90%;"><img src="f2.2海晏村.jpg" /></div>
+
+<div class="item" data-src="f2.3海晏村.jpg" style="background-image: none;margin: 0 auto;width: 90%;"><img src="f2.3海晏村.jpg" /></div>
+
+<div class="item" data-src="f3.1南滇池沙滩.jpg" style="background-image: none;margin: 0 auto;width: 90%;"><img src="f3.1南滇池沙滩.jpg" /></div>
+
+<div class="item" data-src="f3.南滇池沙滩.jpg" style="background-image: none;margin: 0 auto;width: 90%;"><img src="f3.南滇池沙滩.jpg" /></div>
+
+<div class="item" data-src="f4.1环湖南路.jpg" style="background-image: none;margin: 0 auto;width: 90%;"><img src="f4.1环湖南路.jpg" /></div>
+
+<div class="item" data-src="f4.环湖南路.jpg" style="background-image: none;margin: 0 auto;width: 90%;"><img src="f4.环湖南路.jpg" /></div>
+
+<div class="item" data-src="f5.海口镇.jpg" style="background-image: none;margin: 0 auto;width: 90%;"><img src="f5.海口镇.jpg" /></div>
 
 </div>
+
+
