@@ -19,8 +19,8 @@ max_post: 3
 # social profile at the footer/bottom
 place: https://www.baidu.com/s?wd=昆明
 github: https://github.com/ping-lee
-instagram: https://www.instagram.com/ping-lee/
-twitter: https://twitter.com/ping-lee
+instagram: http://wpa.qq.com/msgrd?v=3&uin=1179320194&site=qq&menu=yes
+twitter: https://u.wechat.com/EBPGXLkxm4Gttz60TaK6AhA
 
 # js
 nanobar: /js/nanobar.min.js
