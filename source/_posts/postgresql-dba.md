@@ -75,7 +75,7 @@ tags: [计算机，数据库]
 - 复制：流复制，逻辑复制
 - 备份/恢复工具：
 &nbsp;&nbsp;※ 内置：`pg_dump，pg_dumpall，pg_restore，pg_basebackup`
-&nbsp;&nbsp;※ 第三方：`barman`，`pgbackrest`，`pg_probackup`，`WAL-G`
+&nbsp;&nbsp;※ 第三方：`barman，pgbackrest，pg_probackup，WAL-G`
 &nbsp;&nbsp;※ 备份验证程序
 - 升级程序
 &nbsp;&nbsp;※ 主要使用`pg_upgrade`
@@ -86,8 +86,8 @@ tags: [计算机，数据库]
 - 基础设施监控：`Prometheus`，`Zabbix`，其他喜欢的监控解决方案
 - 高可用性和集群管理工具
 &nbsp;&nbsp;※ `Patroni`
-&nbsp;&nbsp;※ 其他：`Repmgr`，`Stolon`，`pg_auto_failover`，`PAF`
-- 应用负载均衡和服务发掘：`Haproxy`，`Keepalived`，`Consul`，`Etcd`
+&nbsp;&nbsp;※ 其他：`Repmgr，Stolon，pg_auto_failover，PAF`
+- 应用负载均衡和服务发掘：`Haproxy，Keepalived，Consul，Etcd`
 - 在`Kubernetes`上部署Postgres：Simple `StatefulSet` setup，`HELM`，operators
 - 资源使用和配置，容量规划
 ###### 了解如何使例程自动化
