@@ -74,7 +74,7 @@ tags: [计算机，数据库]
 
 - 复制：流复制，逻辑复制
 - 备份/恢复工具：
-&nbsp;&nbsp;※ 内置：`pg_dump`，`pg_dumpall`，`pg_restore`，`pg_basebackup`
+&nbsp;&nbsp;※ 内置：`pg_dump，pg_dumpall，pg_restore，pg_basebackup`
 &nbsp;&nbsp;※ 第三方：`barman`，`pgbackrest`，`pg_probackup`，`WAL-G`
 &nbsp;&nbsp;※ 备份验证程序
 - 升级程序
