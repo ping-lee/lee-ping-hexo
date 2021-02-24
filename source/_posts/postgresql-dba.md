@@ -13,21 +13,21 @@ tags: [计算机, 数据库]
 - **关系模型**：域，属性，维度关系约束，NULL。
 - **数据库高级概念**： ACID，MVCC，会话，写日志查询处理。
 - **链接**： 
-&nbsp;&nbsp;※  [Postgres Glossary](https：//www.postgresql.org/docs/13/glossary.html)
+&nbsp;&nbsp;※  [Postgres Glossary](https://www.postgresql.org/docs/13/glossary.html)
 &nbsp;&nbsp;※  SQL和关系理论 - Christopher J. Date，2009
 &nbsp;&nbsp;※  数据库设计和关系理论 - Christopher J. Date，2012
 
 ###### 了解安装和运行PostgreSQL
 通过获取安装和运行Postgres的实际技能以备接下来的工作环境下学习。
 - 使用包管理器 （APT，YUM，etc.）
-- 使用 `docker`。
+- 使用`docker`。
 - 使用`systemd` （start，stop，restart，reload）管理Postgres服务。
 - 使用`pg_ctl`，或者操作系统指定工具(像`pg_ctlcluster`)管理Postgres服务。
 - 使用`psql`连接Postgres。
 - 在云环境部署数据库服务（AWS，GCE，Azure，Heroku，DigitalOcean，等等...）.
 - **链接**：
-&nbsp;&nbsp;※ [Official download and install instructions](https：//www.postgresql.org/download/)
-&nbsp;&nbsp;※ [Official Docker images](https：//hub.docker.com/_/postgres)
+&nbsp;&nbsp;※ [官网下载和安装指令](https://www.postgresql.org/download/)
+&nbsp;&nbsp;※ [官网Docker镜像](https://hub.docker.com/_/postgres)
 
 ###### 了解SQL概念
 获取如何创建和操作数据库对象得使用技能并且使用`psql`客户端执行查询。
@@ -38,15 +38,15 @@ tags: [计算机, 数据库]
 - **DDL查询**：管理表和方案（创建，修改，删除）。
 - 使用`COPY`导入和导出数据。
 - **链接**：
-&nbsp;&nbsp;※ [DB Fiddle](https：//www.db-fiddle.com/)
-&nbsp;&nbsp;※ [PostgreSQL Tutorial](https：//www.postgresqltutorial.com/)
-&nbsp;&nbsp;※ [PostgreSQL SQL Getting Started](https：//www.postgresql.org/docs/current/tutorial-sql.html)
-&nbsp;&nbsp;※ [The SQL Language](https：//www.postgresql.org/docs/current/sql.html)
+&nbsp;&nbsp;※ [DB Fiddle](https://www.db-fiddle.com/)
+&nbsp;&nbsp;※ [PostgreSQL教程](https://www.postgresqltutorial.com/)
+&nbsp;&nbsp;※ [开始使用PostgreSQL SQL](https://www.postgresql.org/docs/current/tutorial-sql.html)
+&nbsp;&nbsp;※ [SQL语言](https://www.postgresql.org/docs/current/sql.html)
 
 ###### 了解配置Postgres
 掌握好Postgres可以如何配置是核心，深入理解Postgres内部核心在这里还不是时候。
 
-- postgresql.conf：
+- **postgresql.conf**：
 &nbsp;&nbsp;※ 资源使用
 &nbsp;&nbsp;※ 预写日志
 &nbsp;&nbsp;※ 检查点和后台编写器
@@ -57,12 +57,12 @@ tags: [计算机, 数据库]
 &nbsp;&nbsp;※ 添加额外扩展
 &nbsp;&nbsp;※ ...继续探索其他配置选项
 - **链接**：
-&nbsp;&nbsp;※ [Postgresqlco.nf](http：//postgresqlco.nf/)
+&nbsp;&nbsp;※ [postgresqlco.nf](http://postgresqlco.nf/)
 
 ###### 了解Postgres安全概念
 掌握基本得安全概念和部署安全配置的通用方法。
 
-- 授权模型，角色，pg_hba.conf，SSL设置。
+- 授权模型，角色，**pg_hba.conf**，SSL设置。
 - **对象权限**：授予/撤销，默认权限。
 - **高级主题** - 行级安全，selinux。
 - **链接**：

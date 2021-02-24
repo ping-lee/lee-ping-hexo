@@ -1,5 +1,5 @@
   <h4><%- page.title %></h4>
 
-  <p>在 <%- list_tags(page.tags, {class: 'classtest', show_count: false, style: false}) %> — <%- moment(page.date).locale('zh-cn').format('ll') %></p>
+  <p>在 <%- list_tags(page.tags, {class: 'classtest', show_count: false, style: false}) %> — <%- moment(page.date).locale('zh-cn').format('ll') %> </br> 阅读时长预计：<%= min2read(page.content) %>分钟</p>
   <%- page.content%>
   <%- partial('partial/comments') %>
