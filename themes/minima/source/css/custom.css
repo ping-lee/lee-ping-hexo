@@ -166,7 +166,6 @@ body.darkmode {
   }
 }
 
-.toc ul li {
-  margin-bottom: 0;
-  border: 1px red solid;
+.toc ul {
+  list-style: decimal;
 }
